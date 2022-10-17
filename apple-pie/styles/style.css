@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+	line-height: 1cm;
+	font-family: sans-serif;
+}
+
+.img-hero {
+	position: relative;
+}
+.img-hero h1 {
+	position: absolute;
+	font-weight: 100;
+	color: white;
+	transform: translateX(-50%) translateY(-50%);
+	left: 50%;
+	top: 50%;
+	font-size: 96px;
+}
+.img-hero img {
+	width: 100%;
+	object-fit: scale-down;
+}
+
+h2 {
+	font-weight: normal;
+	margin-bottom: 1em;
+}
+
+section,
+hr {
+	font-size: 32px;
+	margin: 1em 4em;
+}
+
+.history {
+	display: flex;
+	flex-flow: row wrap;
+
+	flex: 1 1 auto;
+	justify-content: center;
+}
+
+.ingredients ul {
+	list-style-type: none;
+}
+
+.ingredients img {
+	display: block;
+	margin: auto auto;
+}
+
+.directions or {
+	list-style-type: none;
+}
+
+.directions li {
+	padding-left: 40px;
+}
+
+.directions li::before {
+	content: counter(list-item) ")";
+}
