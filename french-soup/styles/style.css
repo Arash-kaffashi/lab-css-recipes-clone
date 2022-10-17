@@ -61,12 +61,8 @@ hr {
 	margin: auto auto;
 }
 
-.directions or {
+.directions ol {
 	list-style-type: none;
-}
-
-.directions li {
-	padding-left: 40px;
 }
 
 .directions li::before {
